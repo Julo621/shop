@@ -1,0 +1,9 @@
+.vertical {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+img{
+  margin: 5px;
+  border-radius: 10px;
+}
