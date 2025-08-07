@@ -8,8 +8,8 @@ function Zdjecie(props) {
   return (
     <div>
       <img src={`assets/${filename}`} alt={alt} />
-      <h4>Pobrań: {downloads}</h4>
-      <button className="btn btn-success" onClick={handleDownloadClick}>Pobierz</button>
+      <h4>Cena: {downloads}</h4>
+      <button className="btn btn-success" onClick={handleDownloadClick}>Kup</button>
     </div>
   );
 }
